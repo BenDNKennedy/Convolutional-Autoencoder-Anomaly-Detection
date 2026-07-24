@@ -1,6 +1,6 @@
 # Image-Level Anomaly Detection with a Convolutional Autoencoder
 
-An unsupervised anomaly detection system that learns what "normal" looks like from defect-free images only, then flags defective parts by how badly it fails to reconstruct them. Built in PyTorch for ECE 471 (Machine Vision) at the University of Victoria.
+An unsupervised anomaly detection system that learns what "normal" looks like from defect-free images only, then flags defective parts by how badly it fails to reconstruct them. Built in PyTorch for ECE 471 (Computer Vision) at the University of Victoria.
 
 **Top AUROC: 0.86 (screws) / 0.80 (pasta)** — trained with no labelled anomalies, no data augmentation, and no regularization.
 
